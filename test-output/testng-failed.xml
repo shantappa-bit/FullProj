@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="test_scripts.Compose_Mail">
+        <methods>
+          <include name="closeappln"/>
+          <include name="Launchappln"/>
+          <include name="Compose_mail"/>
+        </methods>
+      </class> <!-- test_scripts.Compose_Mail -->
+      <class name="test_scripts.Login_logout">
+        <methods>
+          <include name="closeappln"/>
+          <include name="Launchappln"/>
+        </methods>
+      </class> <!-- test_scripts.Login_logout -->
+      <class name="test_scripts.No_Links_Sentitems_Page">
+        <methods>
+          <include name="closeappln"/>
+          <include name="Launchappln"/>
+          <include name="links_count"/>
+        </methods>
+      </class> <!-- test_scripts.No_Links_Sentitems_Page -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

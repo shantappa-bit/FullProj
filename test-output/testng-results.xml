@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="200268" started-at="2020-01-04T03:50:02Z" finished-at="2020-01-04T03:53:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="200268" started-at="2020-01-04T03:50:02Z" finished-at="2020-01-04T03:53:22Z">
+      <class name="test_scripts.No_Links_Sentitems_Page">
+        <test-method status="PASS" signature="Launchappln()[pri:0, instance:test_scripts.No_Links_Sentitems_Page@cc285f4]" name="Launchappln" is-config="true" duration-ms="11677" started-at="2020-01-04T09:20:02Z" finished-at="2020-01-04T09:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchappln -->
+        <test-method status="PASS" signature="links_count()[pri:0, instance:test_scripts.No_Links_Sentitems_Page@cc285f4]" name="links_count" duration-ms="38235" started-at="2020-01-04T09:20:14Z" finished-at="2020-01-04T09:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links_count -->
+        <test-method status="PASS" signature="closeappln()[pri:0, instance:test_scripts.No_Links_Sentitems_Page@cc285f4]" name="closeappln" is-config="true" duration-ms="9291" started-at="2020-01-04T09:20:52Z" finished-at="2020-01-04T09:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappln -->
+      </class> <!-- test_scripts.No_Links_Sentitems_Page -->
+      <class name="test_scripts.Login_logout">
+        <test-method status="PASS" signature="Launchappln()[pri:0, instance:test_scripts.Login_logout@8bd1b6a]" name="Launchappln" is-config="true" duration-ms="8594" started-at="2020-01-04T09:22:41Z" finished-at="2020-01-04T09:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchappln -->
+        <test-method status="PASS" signature="Username_test()[pri:0, instance:test_scripts.Login_logout@8bd1b6a]" name="Username_test" duration-ms="27541" started-at="2020-01-04T09:22:50Z" finished-at="2020-01-04T09:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username_test -->
+        <test-method status="PASS" signature="closeappln()[pri:0, instance:test_scripts.Login_logout@8bd1b6a]" name="closeappln" is-config="true" duration-ms="4652" started-at="2020-01-04T09:23:17Z" finished-at="2020-01-04T09:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappln -->
+      </class> <!-- test_scripts.Login_logout -->
+      <class name="test_scripts.Compose_Mail">
+        <test-method status="PASS" signature="Launchappln()[pri:0, instance:test_scripts.Compose_Mail@55f3ddb1]" name="Launchappln" is-config="true" duration-ms="8942" started-at="2020-01-04T09:21:01Z" finished-at="2020-01-04T09:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchappln -->
+        <test-method status="PASS" signature="Compose_mail()[pri:0, instance:test_scripts.Compose_Mail@55f3ddb1]" name="Compose_mail" duration-ms="86118" started-at="2020-01-04T09:21:10Z" finished-at="2020-01-04T09:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compose_mail -->
+        <test-method status="PASS" signature="closeappln()[pri:0, instance:test_scripts.Compose_Mail@55f3ddb1]" name="closeappln" is-config="true" duration-ms="5171" started-at="2020-01-04T09:22:36Z" finished-at="2020-01-04T09:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappln -->
+      </class> <!-- test_scripts.Compose_Mail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
