@@ -34,6 +34,7 @@ public class Compose_Mail extends Base_Class
 
 		I1.signoutlogo();
 		I1.singoutbutton();
+		//new
 
 	}
 
